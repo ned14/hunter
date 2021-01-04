@@ -10,6 +10,9 @@ include("../common.cmake")
 project(download-s3)
 
 # DOCUMENTATION_START {
+hunter_add_package(ZLIB)
+find_package(ZLIB CONFIG REQUIRED)
+
 hunter_add_package(s3)
 find_package(s3 CONFIG REQUIRED)
 

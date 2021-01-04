@@ -9,6 +9,9 @@ include("../common.cmake")
 
 project(download-curl)
 
+hunter_add_package(ZLIB)
+find_package(ZLIB CONFIG REQUIRED)
+
 hunter_add_package(CURL)
 find_package(CURL CONFIG REQUIRED)
 
