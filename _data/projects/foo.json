@@ -1,2942 +1,1052 @@
 [
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656156940", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935736", 
         "name": "foo analyze-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656156940", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656156940", 
-        "completed_at": "2021-01-06T11:56:22Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU2OTQw", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935736", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935736", 
+        "completed_at": "2021-01-06T14:38:29Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1NzM2", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:56:05.000Z", 
-                "started_at": "2021-01-06T11:56:02.000Z", 
+                "completed_at": "2021-01-06T14:38:08.000Z", 
+                "started_at": "2021-01-06T14:38:04.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:05.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:08.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:16.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:56:22.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:29.000Z", 
+                "started_at": "2021-01-06T14:38:16.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:56:22.000Z", 
-                "started_at": "2021-01-06T11:56:22.000Z", 
+                "completed_at": "2021-01-06T14:38:29.000Z", 
+                "started_at": "2021-01-06T14:38:29.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:56:22.000Z", 
-                "started_at": "2021-01-06T11:56:22.000Z", 
+                "completed_at": "2021-01-06T14:38:29.000Z", 
+                "started_at": "2021-01-06T14:38:29.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:56:22.000Z", 
-                "started_at": "2021-01-06T11:56:22.000Z", 
+                "completed_at": "2021-01-06T14:38:29.000Z", 
+                "started_at": "2021-01-06T14:38:29.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:02Z", 
-        "id": 1656156940, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:38:04Z", 
+        "id": 1656935736, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157309", 
-        "name": "foo analyze-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157309", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157309", 
-        "completed_at": "2021-01-06T11:56:22Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MzA5", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:03.000Z", 
-                "started_at": "2021-01-06T11:56:01.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:03.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:10.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:56:21.000Z", 
-                "started_at": "2021-01-06T11:56:10.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:56:21.000Z", 
-                "started_at": "2021-01-06T11:56:21.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:56:22.000Z", 
-                "started_at": "2021-01-06T11:56:21.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:56:22.000Z", 
-                "started_at": "2021-01-06T11:56:22.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:01Z", 
-        "id": 1656157309, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656156923", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935717", 
         "name": "foo android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656156923", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656156923", 
-        "completed_at": "2021-01-06T11:56:54Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU2OTIz", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935717", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935717", 
+        "completed_at": "2021-01-06T14:38:58Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1NzE3", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:56:05.000Z", 
-                "started_at": "2021-01-06T11:56:02.000Z", 
+                "completed_at": "2021-01-06T14:38:08.000Z", 
+                "started_at": "2021-01-06T14:38:05.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:05.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:08.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:56:09.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:09.000Z", 
+                "completed_at": "2021-01-06T14:38:14.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:56:54.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:58.000Z", 
+                "started_at": "2021-01-06T14:38:14.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:56:54.000Z", 
-                "started_at": "2021-01-06T11:56:54.000Z", 
+                "completed_at": "2021-01-06T14:38:58.000Z", 
+                "started_at": "2021-01-06T14:38:58.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:56:54.000Z", 
-                "started_at": "2021-01-06T11:56:54.000Z", 
+                "completed_at": "2021-01-06T14:38:58.000Z", 
+                "started_at": "2021-01-06T14:38:58.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:56:54.000Z", 
-                "started_at": "2021-01-06T11:56:54.000Z", 
+                "completed_at": "2021-01-06T14:38:58.000Z", 
+                "started_at": "2021-01-06T14:38:58.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:02Z", 
-        "id": 1656156923, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:38:05Z", 
+        "id": 1656935717, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157289", 
-        "name": "foo android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157289", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157289", 
-        "completed_at": "2021-01-06T11:56:57Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3Mjg5", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:04.000Z", 
-                "started_at": "2021-01-06T11:56:02.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:08.000Z", 
-                "started_at": "2021-01-06T11:56:04.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:08.000Z", 
-                "started_at": "2021-01-06T11:56:08.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:08.000Z", 
-                "started_at": "2021-01-06T11:56:08.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:08.000Z", 
-                "started_at": "2021-01-06T11:56:08.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:08.000Z", 
-                "started_at": "2021-01-06T11:56:08.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:11.000Z", 
-                "started_at": "2021-01-06T11:56:08.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:56:57.000Z", 
-                "started_at": "2021-01-06T11:56:11.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:56:57.000Z", 
-                "started_at": "2021-01-06T11:56:57.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:56:57.000Z", 
-                "started_at": "2021-01-06T11:56:57.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:56:57.000Z", 
-                "started_at": "2021-01-06T11:56:57.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:02Z", 
-        "id": 1656157289, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656156828", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935641", 
         "name": "foo clang-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656156828", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656156828", 
-        "completed_at": "2021-01-06T11:56:26Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU2ODI4", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935641", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935641", 
+        "completed_at": "2021-01-06T14:38:35Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1NjQx", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:56:06.000Z", 
-                "started_at": "2021-01-06T11:56:03.000Z", 
+                "completed_at": "2021-01-06T14:38:09.000Z", 
+                "started_at": "2021-01-06T14:38:06.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:06.000Z", 
+                "completed_at": "2021-01-06T14:38:12.000Z", 
+                "started_at": "2021-01-06T14:38:09.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:13.000Z", 
+                "started_at": "2021-01-06T14:38:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:13.000Z", 
+                "started_at": "2021-01-06T14:38:13.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:13.000Z", 
+                "started_at": "2021-01-06T14:38:13.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:13.000Z", 
+                "started_at": "2021-01-06T14:38:13.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:56:16.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:18.000Z", 
+                "started_at": "2021-01-06T14:38:13.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:56:26.000Z", 
-                "started_at": "2021-01-06T11:56:16.000Z", 
+                "completed_at": "2021-01-06T14:38:35.000Z", 
+                "started_at": "2021-01-06T14:38:18.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:56:26.000Z", 
-                "started_at": "2021-01-06T11:56:26.000Z", 
+                "completed_at": "2021-01-06T14:38:35.000Z", 
+                "started_at": "2021-01-06T14:38:35.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:56:26.000Z", 
-                "started_at": "2021-01-06T11:56:26.000Z", 
+                "completed_at": "2021-01-06T14:38:35.000Z", 
+                "started_at": "2021-01-06T14:38:35.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:56:26.000Z", 
-                "started_at": "2021-01-06T11:56:26.000Z", 
+                "completed_at": "2021-01-06T14:38:35.000Z", 
+                "started_at": "2021-01-06T14:38:35.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:03Z", 
-        "id": 1656156828, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:38:06Z", 
+        "id": 1656935641, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157203", 
-        "name": "foo clang-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157203", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157203", 
-        "completed_at": "2021-01-06T11:56:31Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MjAz", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:04.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:16.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:56:31.000Z", 
-                "started_at": "2021-01-06T11:56:16.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:56:31.000Z", 
-                "started_at": "2021-01-06T11:56:31.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:56:31.000Z", 
-                "started_at": "2021-01-06T11:56:31.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:56:31.000Z", 
-                "started_at": "2021-01-06T11:56:31.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:04Z", 
-        "id": 1656157203, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656156860", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935659", 
         "name": "foo gcc-7-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656156860", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656156860", 
-        "completed_at": "2021-01-06T11:56:25Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU2ODYw", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935659", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935659", 
+        "completed_at": "2021-01-06T14:38:30Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1NjU5", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:56:04.000Z", 
-                "started_at": "2021-01-06T11:56:02.000Z", 
+                "completed_at": "2021-01-06T14:38:09.000Z", 
+                "started_at": "2021-01-06T14:38:07.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:56:10.000Z", 
-                "started_at": "2021-01-06T11:56:04.000Z", 
+                "completed_at": "2021-01-06T14:38:15.000Z", 
+                "started_at": "2021-01-06T14:38:09.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:56:10.000Z", 
-                "started_at": "2021-01-06T11:56:10.000Z", 
+                "completed_at": "2021-01-06T14:38:15.000Z", 
+                "started_at": "2021-01-06T14:38:15.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:56:10.000Z", 
-                "started_at": "2021-01-06T11:56:10.000Z", 
+                "completed_at": "2021-01-06T14:38:15.000Z", 
+                "started_at": "2021-01-06T14:38:15.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:56:10.000Z", 
-                "started_at": "2021-01-06T11:56:10.000Z", 
+                "completed_at": "2021-01-06T14:38:15.000Z", 
+                "started_at": "2021-01-06T14:38:15.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:56:10.000Z", 
-                "started_at": "2021-01-06T11:56:10.000Z", 
+                "completed_at": "2021-01-06T14:38:15.000Z", 
+                "started_at": "2021-01-06T14:38:15.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:10.000Z", 
+                "completed_at": "2021-01-06T14:38:18.000Z", 
+                "started_at": "2021-01-06T14:38:15.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:56:25.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
+                "completed_at": "2021-01-06T14:38:30.000Z", 
+                "started_at": "2021-01-06T14:38:18.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:56:25.000Z", 
-                "started_at": "2021-01-06T11:56:25.000Z", 
+                "completed_at": "2021-01-06T14:38:30.000Z", 
+                "started_at": "2021-01-06T14:38:30.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:56:25.000Z", 
-                "started_at": "2021-01-06T11:56:25.000Z", 
+                "completed_at": "2021-01-06T14:38:30.000Z", 
+                "started_at": "2021-01-06T14:38:30.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:56:25.000Z", 
-                "started_at": "2021-01-06T11:56:25.000Z", 
+                "completed_at": "2021-01-06T14:38:30.000Z", 
+                "started_at": "2021-01-06T14:38:30.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:02Z", 
-        "id": 1656156860, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:38:07Z", 
+        "id": 1656935659, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157225", 
-        "name": "foo gcc-7-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157225", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157225", 
-        "completed_at": "2021-01-06T11:56:30Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MjI1", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:04.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:16.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:56:30.000Z", 
-                "started_at": "2021-01-06T11:56:16.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:56:30.000Z", 
-                "started_at": "2021-01-06T11:56:30.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:56:30.000Z", 
-                "started_at": "2021-01-06T11:56:30.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:56:30.000Z", 
-                "started_at": "2021-01-06T11:56:30.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:04Z", 
-        "id": 1656157225, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656156879", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935683", 
         "name": "foo gcc-8-cxx17-fpic ubuntu-18.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656156879", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656156879", 
-        "completed_at": "2021-01-06T11:57:00Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU2ODc5", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935683", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935683", 
+        "completed_at": "2021-01-06T14:39:13Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1Njgz", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:56:43.000Z", 
-                "started_at": "2021-01-06T11:56:41.000Z", 
+                "completed_at": "2021-01-06T14:38:53.000Z", 
+                "started_at": "2021-01-06T14:38:51.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:56:47.000Z", 
-                "started_at": "2021-01-06T11:56:43.000Z", 
+                "completed_at": "2021-01-06T14:38:57.000Z", 
+                "started_at": "2021-01-06T14:38:53.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:56:47.000Z", 
-                "started_at": "2021-01-06T11:56:47.000Z", 
+                "completed_at": "2021-01-06T14:38:57.000Z", 
+                "started_at": "2021-01-06T14:38:57.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:56:47.000Z", 
-                "started_at": "2021-01-06T11:56:47.000Z", 
+                "completed_at": "2021-01-06T14:38:57.000Z", 
+                "started_at": "2021-01-06T14:38:57.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:56:47.000Z", 
-                "started_at": "2021-01-06T11:56:47.000Z", 
+                "completed_at": "2021-01-06T14:38:57.000Z", 
+                "started_at": "2021-01-06T14:38:57.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:56:47.000Z", 
-                "started_at": "2021-01-06T11:56:47.000Z", 
+                "completed_at": "2021-01-06T14:38:57.000Z", 
+                "started_at": "2021-01-06T14:38:57.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:56:50.000Z", 
-                "started_at": "2021-01-06T11:56:47.000Z", 
+                "completed_at": "2021-01-06T14:39:01.000Z", 
+                "started_at": "2021-01-06T14:38:57.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:57:00.000Z", 
-                "started_at": "2021-01-06T11:56:50.000Z", 
+                "completed_at": "2021-01-06T14:39:12.000Z", 
+                "started_at": "2021-01-06T14:39:01.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:57:00.000Z", 
-                "started_at": "2021-01-06T11:57:00.000Z", 
+                "completed_at": "2021-01-06T14:39:12.000Z", 
+                "started_at": "2021-01-06T14:39:12.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:57:00.000Z", 
-                "started_at": "2021-01-06T11:57:00.000Z", 
+                "completed_at": "2021-01-06T14:39:13.000Z", 
+                "started_at": "2021-01-06T14:39:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:57:00.000Z", 
-                "started_at": "2021-01-06T11:57:00.000Z", 
+                "completed_at": "2021-01-06T14:39:13.000Z", 
+                "started_at": "2021-01-06T14:39:13.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:41Z", 
-        "id": 1656156879, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:38:51Z", 
+        "id": 1656935683, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157249", 
-        "name": "foo gcc-8-cxx17-fpic ubuntu-18.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157249", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157249", 
-        "completed_at": "2021-01-06T11:56:59Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MjQ5", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:44.000Z", 
-                "started_at": "2021-01-06T11:56:42.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:44.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:51.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:56:59.000Z", 
-                "started_at": "2021-01-06T11:56:51.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:56:59.000Z", 
-                "started_at": "2021-01-06T11:56:59.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:56:59.000Z", 
-                "started_at": "2021-01-06T11:56:59.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:56:59.000Z", 
-                "started_at": "2021-01-06T11:56:59.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:42Z", 
-        "id": 1656157249, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656156900", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935698", 
         "name": "foo gcc-9-cxx17-fpic ubuntu-20.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656156900", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656156900", 
-        "completed_at": "2021-01-06T11:57:20Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU2OTAw", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935698", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935698", 
+        "completed_at": "2021-01-06T14:39:31Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1Njk4", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:57:07.000Z", 
-                "started_at": "2021-01-06T11:57:04.000Z", 
+                "completed_at": "2021-01-06T14:39:12.000Z", 
+                "started_at": "2021-01-06T14:39:09.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:07.000Z", 
+                "completed_at": "2021-01-06T14:39:16.000Z", 
+                "started_at": "2021-01-06T14:39:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
+                "completed_at": "2021-01-06T14:39:16.000Z", 
+                "started_at": "2021-01-06T14:39:16.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
+                "completed_at": "2021-01-06T14:39:16.000Z", 
+                "started_at": "2021-01-06T14:39:16.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
+                "completed_at": "2021-01-06T14:39:16.000Z", 
+                "started_at": "2021-01-06T14:39:16.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
+                "completed_at": "2021-01-06T14:39:16.000Z", 
+                "started_at": "2021-01-06T14:39:16.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:57:13.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
+                "completed_at": "2021-01-06T14:39:21.000Z", 
+                "started_at": "2021-01-06T14:39:16.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:57:20.000Z", 
-                "started_at": "2021-01-06T11:57:13.000Z", 
+                "completed_at": "2021-01-06T14:39:31.000Z", 
+                "started_at": "2021-01-06T14:39:21.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:57:20.000Z", 
-                "started_at": "2021-01-06T11:57:20.000Z", 
+                "completed_at": "2021-01-06T14:39:31.000Z", 
+                "started_at": "2021-01-06T14:39:31.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:57:20.000Z", 
-                "started_at": "2021-01-06T11:57:20.000Z", 
+                "completed_at": "2021-01-06T14:39:31.000Z", 
+                "started_at": "2021-01-06T14:39:31.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:57:20.000Z", 
-                "started_at": "2021-01-06T11:57:20.000Z", 
+                "completed_at": "2021-01-06T14:39:31.000Z", 
+                "started_at": "2021-01-06T14:39:31.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:57:04Z", 
-        "id": 1656156900, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:39:09Z", 
+        "id": 1656935698, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157275", 
-        "name": "foo gcc-9-cxx17-fpic ubuntu-20.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157275", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157275", 
-        "completed_at": "2021-01-06T11:57:31Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3Mjc1", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:57:13.000Z", 
-                "started_at": "2021-01-06T11:57:11.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:57:17.000Z", 
-                "started_at": "2021-01-06T11:57:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:57:17.000Z", 
-                "started_at": "2021-01-06T11:57:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:57:17.000Z", 
-                "started_at": "2021-01-06T11:57:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:57:17.000Z", 
-                "started_at": "2021-01-06T11:57:17.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:57:17.000Z", 
-                "started_at": "2021-01-06T11:57:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:57:23.000Z", 
-                "started_at": "2021-01-06T11:57:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:57:30.000Z", 
-                "started_at": "2021-01-06T11:57:23.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:57:30.000Z", 
-                "started_at": "2021-01-06T11:57:30.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:57:30.000Z", 
-                "started_at": "2021-01-06T11:57:30.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:57:31.000Z", 
-                "started_at": "2021-01-06T11:57:30.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:57:11Z", 
-        "id": 1656157275, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157090", 
-        "name": "foo ios-nocodesign-13-2-dep-9-3 macos-10.15", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157090", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157090", 
-        "completed_at": "2021-01-06T11:57:10Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MDkw", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:06.000Z", 
-                "started_at": "2021-01-06T11:56:04.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:06.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:18.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:56:18.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:04Z", 
-        "id": 1656157090, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157153", 
-        "name": "foo mingw-cxx17 windows-2016", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157153", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157153", 
-        "completed_at": "2021-01-06T11:58:29Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MTUz", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:57:16.000Z", 
-                "started_at": "2021-01-06T11:57:12.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:57:33.000Z", 
-                "started_at": "2021-01-06T11:57:16.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:57:33.000Z", 
-                "started_at": "2021-01-06T11:57:33.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:57:33.000Z", 
-                "started_at": "2021-01-06T11:57:33.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:57:34.000Z", 
-                "started_at": "2021-01-06T11:57:33.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:57:34.000Z", 
-                "started_at": "2021-01-06T11:57:34.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:57:48.000Z", 
-                "started_at": "2021-01-06T11:57:34.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:57:48.000Z", 
-                "started_at": "2021-01-06T11:57:48.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:58:26.000Z", 
-                "started_at": "2021-01-06T11:57:48.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:58:29.000Z", 
-                "started_at": "2021-01-06T11:58:26.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:58:29.000Z", 
-                "started_at": "2021-01-06T11:58:29.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:57:12Z", 
-        "id": 1656157153, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157173", 
-        "name": "foo msys-cxx17 windows-2016", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157173", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157173", 
-        "completed_at": "2021-01-06T11:58:22Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MTcz", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:57:13.000Z", 
-                "started_at": "2021-01-06T11:57:11.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:57:28.000Z", 
-                "started_at": "2021-01-06T11:57:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:57:28.000Z", 
-                "started_at": "2021-01-06T11:57:28.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:57:28.000Z", 
-                "started_at": "2021-01-06T11:57:28.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:57:29.000Z", 
-                "started_at": "2021-01-06T11:57:28.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:57:30.000Z", 
-                "started_at": "2021-01-06T11:57:29.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:57:42.000Z", 
-                "started_at": "2021-01-06T11:57:30.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:57:42.000Z", 
-                "started_at": "2021-01-06T11:57:42.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:58:19.000Z", 
-                "started_at": "2021-01-06T11:57:42.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:58:22.000Z", 
-                "started_at": "2021-01-06T11:58:19.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:58:22.000Z", 
-                "started_at": "2021-01-06T11:58:22.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:57:11Z", 
-        "id": 1656157173, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157040", 
-        "name": "foo osx-10-13-cxx14 macos-10.15", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157040", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157040", 
-        "completed_at": "2021-01-06T11:57:12Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MDQw", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:08.000Z", 
-                "started_at": "2021-01-06T11:56:05.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:17.000Z", 
-                "started_at": "2021-01-06T11:56:08.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:17.000Z", 
-                "started_at": "2021-01-06T11:56:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:17.000Z", 
-                "started_at": "2021-01-06T11:56:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:17.000Z", 
-                "started_at": "2021-01-06T11:56:17.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:17.000Z", 
-                "started_at": "2021-01-06T11:56:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:22.000Z", 
-                "started_at": "2021-01-06T11:56:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:57:12.000Z", 
-                "started_at": "2021-01-06T11:56:22.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:57:12.000Z", 
-                "started_at": "2021-01-06T11:57:12.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:57:12.000Z", 
-                "started_at": "2021-01-06T11:57:12.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:57:12.000Z", 
-                "started_at": "2021-01-06T11:57:12.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:05Z", 
-        "id": 1656157040, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157028", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935853", 
         "name": "foo osx-10-13-make-cxx14 macos-10.15", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157028", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157028", 
-        "completed_at": "2021-01-06T11:58:07Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MDI4", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935853", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935853", 
+        "completed_at": "2021-01-06T14:44:14Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1ODUz", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:57:37.000Z", 
-                "started_at": "2021-01-06T11:57:35.000Z", 
+                "completed_at": "2021-01-06T14:43:29.000Z", 
+                "started_at": "2021-01-06T14:43:22.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:57:42.000Z", 
-                "started_at": "2021-01-06T11:57:37.000Z", 
+                "completed_at": "2021-01-06T14:43:38.000Z", 
+                "started_at": "2021-01-06T14:43:29.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:57:42.000Z", 
-                "started_at": "2021-01-06T11:57:42.000Z", 
+                "completed_at": "2021-01-06T14:43:38.000Z", 
+                "started_at": "2021-01-06T14:43:38.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:57:42.000Z", 
-                "started_at": "2021-01-06T11:57:42.000Z", 
+                "completed_at": "2021-01-06T14:43:38.000Z", 
+                "started_at": "2021-01-06T14:43:38.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:57:42.000Z", 
-                "started_at": "2021-01-06T11:57:42.000Z", 
+                "completed_at": "2021-01-06T14:43:38.000Z", 
+                "started_at": "2021-01-06T14:43:38.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:57:42.000Z", 
-                "started_at": "2021-01-06T11:57:42.000Z", 
+                "completed_at": "2021-01-06T14:43:38.000Z", 
+                "started_at": "2021-01-06T14:43:38.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:57:47.000Z", 
-                "started_at": "2021-01-06T11:57:42.000Z", 
+                "completed_at": "2021-01-06T14:43:45.000Z", 
+                "started_at": "2021-01-06T14:43:38.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:58:06.000Z", 
-                "started_at": "2021-01-06T11:57:47.000Z", 
+                "completed_at": "2021-01-06T14:44:13.000Z", 
+                "started_at": "2021-01-06T14:43:45.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:58:06.000Z", 
-                "started_at": "2021-01-06T11:58:06.000Z", 
+                "completed_at": "2021-01-06T14:44:13.000Z", 
+                "started_at": "2021-01-06T14:44:13.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:58:07.000Z", 
-                "started_at": "2021-01-06T11:58:06.000Z", 
+                "completed_at": "2021-01-06T14:44:13.000Z", 
+                "started_at": "2021-01-06T14:44:13.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:58:07.000Z", 
-                "started_at": "2021-01-06T11:58:07.000Z", 
+                "completed_at": "2021-01-06T14:44:14.000Z", 
+                "started_at": "2021-01-06T14:44:13.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:57:35Z", 
-        "id": 1656157028, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:43:22Z", 
+        "id": 1656935853, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157396", 
-        "name": "foo osx-10-13-make-cxx14 macos-10.15", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157396", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157396", 
-        "completed_at": "2021-01-06T11:58:08Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3Mzk2", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:57:40.000Z", 
-                "started_at": "2021-01-06T11:57:38.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:57:45.000Z", 
-                "started_at": "2021-01-06T11:57:40.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:57:45.000Z", 
-                "started_at": "2021-01-06T11:57:45.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:57:45.000Z", 
-                "started_at": "2021-01-06T11:57:45.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:57:45.000Z", 
-                "started_at": "2021-01-06T11:57:45.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:57:45.000Z", 
-                "started_at": "2021-01-06T11:57:45.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:57:50.000Z", 
-                "started_at": "2021-01-06T11:57:45.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:58:08.000Z", 
-                "started_at": "2021-01-06T11:57:50.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:58:08.000Z", 
-                "started_at": "2021-01-06T11:58:08.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:58:08.000Z", 
-                "started_at": "2021-01-06T11:58:08.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:58:08.000Z", 
-                "started_at": "2021-01-06T11:58:08.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:57:38Z", 
-        "id": 1656157396, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157068", 
-        "name": "foo osx-10-15-dep-10-10-cxx17 macos-10.15", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157068", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157068", 
-        "completed_at": "2021-01-06T11:59:32Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MDY4", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:58:27.000Z", 
-                "started_at": "2021-01-06T11:58:24.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:58:35.000Z", 
-                "started_at": "2021-01-06T11:58:27.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:58:36.000Z", 
-                "started_at": "2021-01-06T11:58:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:58:36.000Z", 
-                "started_at": "2021-01-06T11:58:36.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:58:36.000Z", 
-                "started_at": "2021-01-06T11:58:36.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:58:36.000Z", 
-                "started_at": "2021-01-06T11:58:36.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:58:41.000Z", 
-                "started_at": "2021-01-06T11:58:36.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:59:32.000Z", 
-                "started_at": "2021-01-06T11:58:41.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:59:32.000Z", 
-                "started_at": "2021-01-06T11:59:32.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:59:32.000Z", 
-                "started_at": "2021-01-06T11:59:32.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:59:32.000Z", 
-                "started_at": "2021-01-06T11:59:32.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:58:24Z", 
-        "id": 1656157068, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656156965", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935755", 
         "name": "foo sanitize-address-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656156965", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656156965", 
-        "completed_at": "2021-01-06T11:56:29Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU2OTY1", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935755", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935755", 
+        "completed_at": "2021-01-06T14:38:40Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1NzU1", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:56:06.000Z", 
-                "started_at": "2021-01-06T11:56:03.000Z", 
+                "completed_at": "2021-01-06T14:38:11.000Z", 
+                "started_at": "2021-01-06T14:38:08.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:06.000Z", 
+                "completed_at": "2021-01-06T14:38:25.000Z", 
+                "started_at": "2021-01-06T14:38:11.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:25.000Z", 
+                "started_at": "2021-01-06T14:38:25.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:25.000Z", 
+                "started_at": "2021-01-06T14:38:25.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:25.000Z", 
+                "started_at": "2021-01-06T14:38:25.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:25.000Z", 
+                "started_at": "2021-01-06T14:38:25.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:56:15.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:28.000Z", 
+                "started_at": "2021-01-06T14:38:25.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:56:29.000Z", 
-                "started_at": "2021-01-06T11:56:15.000Z", 
+                "completed_at": "2021-01-06T14:38:39.000Z", 
+                "started_at": "2021-01-06T14:38:28.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:56:29.000Z", 
-                "started_at": "2021-01-06T11:56:29.000Z", 
+                "completed_at": "2021-01-06T14:38:39.000Z", 
+                "started_at": "2021-01-06T14:38:39.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:56:29.000Z", 
-                "started_at": "2021-01-06T11:56:29.000Z", 
+                "completed_at": "2021-01-06T14:38:39.000Z", 
+                "started_at": "2021-01-06T14:38:39.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:56:29.000Z", 
-                "started_at": "2021-01-06T11:56:29.000Z", 
+                "completed_at": "2021-01-06T14:38:40.000Z", 
+                "started_at": "2021-01-06T14:38:39.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:03Z", 
-        "id": 1656156965, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:38:08Z", 
+        "id": 1656935755, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157324", 
-        "name": "foo sanitize-address-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157324", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157324", 
-        "completed_at": "2021-01-06T11:56:38Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MzI0", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:04.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:13.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:16.000Z", 
-                "started_at": "2021-01-06T11:56:13.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:56:37.000Z", 
-                "started_at": "2021-01-06T11:56:16.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:56:37.000Z", 
-                "started_at": "2021-01-06T11:56:37.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:56:38.000Z", 
-                "started_at": "2021-01-06T11:56:37.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:56:38.000Z", 
-                "started_at": "2021-01-06T11:56:38.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:04Z", 
-        "id": 1656157324, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656156988", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935781", 
         "name": "foo sanitize-leak-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656156988", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656156988", 
-        "completed_at": "2021-01-06T11:56:31Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU2OTg4", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935781", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935781", 
+        "completed_at": "2021-01-06T14:38:58Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1Nzgx", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:56:07.000Z", 
-                "started_at": "2021-01-06T11:56:04.000Z", 
+                "completed_at": "2021-01-06T14:38:36.000Z", 
+                "started_at": "2021-01-06T14:38:33.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:07.000Z", 
+                "completed_at": "2021-01-06T14:38:41.000Z", 
+                "started_at": "2021-01-06T14:38:36.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:41.000Z", 
+                "started_at": "2021-01-06T14:38:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:41.000Z", 
+                "started_at": "2021-01-06T14:38:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:41.000Z", 
+                "started_at": "2021-01-06T14:38:41.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:56:12.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:41.000Z", 
+                "started_at": "2021-01-06T14:38:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:56:16.000Z", 
-                "started_at": "2021-01-06T11:56:12.000Z", 
+                "completed_at": "2021-01-06T14:38:44.000Z", 
+                "started_at": "2021-01-06T14:38:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:56:30.000Z", 
-                "started_at": "2021-01-06T11:56:16.000Z", 
+                "completed_at": "2021-01-06T14:38:58.000Z", 
+                "started_at": "2021-01-06T14:38:44.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:56:30.000Z", 
-                "started_at": "2021-01-06T11:56:30.000Z", 
+                "completed_at": "2021-01-06T14:38:58.000Z", 
+                "started_at": "2021-01-06T14:38:58.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:56:31.000Z", 
-                "started_at": "2021-01-06T11:56:30.000Z", 
+                "completed_at": "2021-01-06T14:38:58.000Z", 
+                "started_at": "2021-01-06T14:38:58.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:56:31.000Z", 
-                "started_at": "2021-01-06T11:56:31.000Z", 
+                "completed_at": "2021-01-06T14:38:58.000Z", 
+                "started_at": "2021-01-06T14:38:58.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:04Z", 
-        "id": 1656156988, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:38:33Z", 
+        "id": 1656935781, 
         "conclusion": "failure"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157338", 
-        "name": "foo sanitize-leak-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157338", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157338", 
-        "completed_at": "2021-01-06T11:57:01Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MzM4", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:36.000Z", 
-                "started_at": "2021-01-06T11:56:33.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:41.000Z", 
-                "started_at": "2021-01-06T11:56:36.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:41.000Z", 
-                "started_at": "2021-01-06T11:56:41.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:41.000Z", 
-                "started_at": "2021-01-06T11:56:41.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:41.000Z", 
-                "started_at": "2021-01-06T11:56:41.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:41.000Z", 
-                "started_at": "2021-01-06T11:56:41.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:45.000Z", 
-                "started_at": "2021-01-06T11:56:41.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:57:01.000Z", 
-                "started_at": "2021-01-06T11:56:45.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:57:01.000Z", 
-                "started_at": "2021-01-06T11:57:01.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:57:01.000Z", 
-                "started_at": "2021-01-06T11:57:01.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:57:01.000Z", 
-                "started_at": "2021-01-06T11:57:01.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:33Z", 
-        "id": 1656157338, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157010", 
+        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656935823", 
         "name": "foo sanitize-thread-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157010", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157010", 
-        "completed_at": "2021-01-06T11:57:01Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MDEw", 
+        "run_id": 466342615, 
+        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656935823", 
+        "html_url": "https://github.com/ned14/hunter/runs/1656935823", 
+        "completed_at": "2021-01-06T14:39:10Z", 
+        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466342615", 
+        "node_id": "MDg6Q2hlY2tSdW4xNjU2OTM1ODIz", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2021-01-06T11:56:39.000Z", 
-                "started_at": "2021-01-06T11:56:36.000Z", 
+                "completed_at": "2021-01-06T14:38:44.000Z", 
+                "started_at": "2021-01-06T14:38:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2021-01-06T11:56:45.000Z", 
-                "started_at": "2021-01-06T11:56:39.000Z", 
+                "completed_at": "2021-01-06T14:38:50.000Z", 
+                "started_at": "2021-01-06T14:38:44.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2021-01-06T11:56:45.000Z", 
-                "started_at": "2021-01-06T11:56:45.000Z", 
+                "completed_at": "2021-01-06T14:38:50.000Z", 
+                "started_at": "2021-01-06T14:38:50.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2021-01-06T11:56:45.000Z", 
-                "started_at": "2021-01-06T11:56:45.000Z", 
+                "completed_at": "2021-01-06T14:38:50.000Z", 
+                "started_at": "2021-01-06T14:38:50.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2021-01-06T11:56:45.000Z", 
-                "started_at": "2021-01-06T11:56:45.000Z", 
+                "completed_at": "2021-01-06T14:38:50.000Z", 
+                "started_at": "2021-01-06T14:38:50.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2021-01-06T11:56:45.000Z", 
-                "started_at": "2021-01-06T11:56:45.000Z", 
+                "completed_at": "2021-01-06T14:38:50.000Z", 
+                "started_at": "2021-01-06T14:38:50.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:45.000Z", 
+                "completed_at": "2021-01-06T14:38:53.000Z", 
+                "started_at": "2021-01-06T14:38:50.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2021-01-06T11:57:01.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
+                "completed_at": "2021-01-06T14:39:09.000Z", 
+                "started_at": "2021-01-06T14:38:53.000Z", 
                 "conclusion": "failure"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2021-01-06T11:57:01.000Z", 
-                "started_at": "2021-01-06T11:57:01.000Z", 
+                "completed_at": "2021-01-06T14:39:09.000Z", 
+                "started_at": "2021-01-06T14:39:09.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2021-01-06T11:57:01.000Z", 
-                "started_at": "2021-01-06T11:57:01.000Z", 
+                "completed_at": "2021-01-06T14:39:10.000Z", 
+                "started_at": "2021-01-06T14:39:09.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2021-01-06T11:57:01.000Z", 
-                "started_at": "2021-01-06T11:57:01.000Z", 
+                "completed_at": "2021-01-06T14:39:10.000Z", 
+                "started_at": "2021-01-06T14:39:10.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:36Z", 
-        "id": 1656157010, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157370", 
-        "name": "foo sanitize-thread-cxx17 ubuntu-16.04", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157370", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157370", 
-        "completed_at": "2021-01-06T11:57:10Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3Mzcw", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:56:42.000Z", 
-                "started_at": "2021-01-06T11:56:40.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:42.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:56:48.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:56:51.000Z", 
-                "started_at": "2021-01-06T11:56:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:57:09.000Z", 
-                "started_at": "2021-01-06T11:56:51.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:57:09.000Z", 
-                "started_at": "2021-01-06T11:57:09.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:09.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:57:10.000Z", 
-                "started_at": "2021-01-06T11:57:10.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:56:40Z", 
-        "id": 1656157370, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157133", 
-        "name": "foo vs-14-2015-sdk-8-1 windows-2016", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157133", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157133", 
-        "completed_at": "2021-01-06T11:58:53Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MTMz", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:57:33.000Z", 
-                "started_at": "2021-01-06T11:57:29.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:57:48.000Z", 
-                "started_at": "2021-01-06T11:57:33.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:57:48.000Z", 
-                "started_at": "2021-01-06T11:57:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:57:48.000Z", 
-                "started_at": "2021-01-06T11:57:48.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:57:49.000Z", 
-                "started_at": "2021-01-06T11:57:48.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:57:49.000Z", 
-                "started_at": "2021-01-06T11:57:49.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:58:00.000Z", 
-                "started_at": "2021-01-06T11:57:49.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:58:00.000Z", 
-                "started_at": "2021-01-06T11:58:00.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T11:58:49.000Z", 
-                "started_at": "2021-01-06T11:58:00.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T11:58:53.000Z", 
-                "started_at": "2021-01-06T11:58:49.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T11:58:53.000Z", 
-                "started_at": "2021-01-06T11:58:53.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:57:29Z", 
-        "id": 1656157133, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157115", 
-        "name": "foo vs-15-2017-win64-cxx17 windows-2016", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157115", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157115", 
-        "completed_at": "2021-01-06T12:00:20Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MTE1", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:58:39.000Z", 
-                "started_at": "2021-01-06T11:58:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:58:56.000Z", 
-                "started_at": "2021-01-06T11:58:39.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:58:56.000Z", 
-                "started_at": "2021-01-06T11:58:56.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:58:56.000Z", 
-                "started_at": "2021-01-06T11:58:56.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:58:57.000Z", 
-                "started_at": "2021-01-06T11:58:56.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:58:57.000Z", 
-                "started_at": "2021-01-06T11:58:57.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:59:12.000Z", 
-                "started_at": "2021-01-06T11:58:57.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:59:12.000Z", 
-                "started_at": "2021-01-06T11:59:12.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T12:00:17.000Z", 
-                "started_at": "2021-01-06T11:59:12.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T12:00:20.000Z", 
-                "started_at": "2021-01-06T12:00:17.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T12:00:20.000Z", 
-                "started_at": "2021-01-06T12:00:20.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:58:35Z", 
-        "id": 1656157115, 
-        "conclusion": "failure"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/ned14/hunter/check-runs/1656157105", 
-        "name": "foo vs-16-2019-win64-cxx17 windows-2019", 
-        "run_id": 466011691, 
-        "url": "https://api.github.com/repos/ned14/hunter/actions/jobs/1656157105", 
-        "html_url": "https://github.com/ned14/hunter/runs/1656157105", 
-        "completed_at": "2021-01-06T12:00:27Z", 
-        "run_url": "https://api.github.com/repos/ned14/hunter/actions/runs/466011691", 
-        "node_id": "MDg6Q2hlY2tSdW4xNjU2MTU3MTA1", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2021-01-06T11:59:05.000Z", 
-                "started_at": "2021-01-06T11:59:01.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2021-01-06T11:59:20.000Z", 
-                "started_at": "2021-01-06T11:59:05.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2021-01-06T11:59:21.000Z", 
-                "started_at": "2021-01-06T11:59:20.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2021-01-06T11:59:21.000Z", 
-                "started_at": "2021-01-06T11:59:21.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2021-01-06T11:59:21.000Z", 
-                "started_at": "2021-01-06T11:59:21.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2021-01-06T11:59:22.000Z", 
-                "started_at": "2021-01-06T11:59:21.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2021-01-06T11:59:32.000Z", 
-                "started_at": "2021-01-06T11:59:22.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2021-01-06T11:59:32.000Z", 
-                "started_at": "2021-01-06T11:59:32.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2021-01-06T12:00:24.000Z", 
-                "started_at": "2021-01-06T11:59:32.000Z", 
-                "conclusion": "failure"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2021-01-06T12:00:27.000Z", 
-                "started_at": "2021-01-06T12:00:24.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2021-01-06T12:00:27.000Z", 
-                "started_at": "2021-01-06T12:00:27.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "1b93e7f9602ca39f1f38a96e37de06fc3aa5d708", 
-        "started_at": "2021-01-06T11:59:01Z", 
-        "id": 1656157105, 
+        "head_sha": "3cec6cecd2e12295f019c0652ed6210fed2598e1", 
+        "started_at": "2021-01-06T14:38:41Z", 
+        "id": 1656935823, 
         "conclusion": "failure"
     }
 ]
