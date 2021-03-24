@@ -102,11 +102,11 @@ hunter_add_version(
     PACKAGE_NAME
     CURL
     VERSION
-    "7.74.0-p0"
+    "7.74.0-p1"
     URL
-    "https://github.com/cpp-pm/curl/archive/v7.74.0-p0.tar.gz"
+    "https://github.com/cpp-pm/curl/archive/refs/tags/v7.74.0-p1.tar.gz"
     SHA1
-    9166518326aaf2bd5b6b425cf981b18cdde0f9e0
+    1e31cd92945f538f8f284ec957fd878628da451b
 )
 
 if (ANDROID OR IOS OR RASPBERRY_PI OR OPENWRT)
